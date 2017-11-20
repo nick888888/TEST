@@ -27,6 +27,7 @@ func main() {
 	fmt.Println("start sleep")
 	time.Sleep(5 * time.Second)
 	fmt.Println("end sleep")
+	fmt.Println("test-git")
 
 }
 

@@ -15,8 +15,7 @@ import (
 )
 
 func main() {
-		fmt.Println("git test111222")
-	fmt.Println("git test")
+	fmt.Println("git20171120")
 	fmt.Println("下面是数组的常规声明")
 	a1 := [2]int{1, 1}
 	fmt.Println(a1)
