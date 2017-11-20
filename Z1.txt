@@ -1,0 +1,29 @@
+package main
+
+import (
+	"fmt"
+)
+
+type A struct {
+	name string
+}
+
+type B struct {
+	name string
+}
+
+
+func main() {
+	a:=A{}
+	a.Print()
+
+	b:=B{}
+	b.Print()
+}
+
+func(a A)Print(){
+	fmt.Println("A方法打印")
+}
+func(b B)Print(){
+	fmt.Println("B方法打印")
+}

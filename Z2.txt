@@ -1,0 +1,30 @@
+//判断语句if
+//
+//条件表达式没有括号
+//支持一个初始化表达式（可以是并行方式）
+//左大括号必须和条件语句或else在同一行
+//支持单行模式
+//初始化语句中的变量为block级别，同时隐藏外部同名变量
+//1.0.3版本中的编译器BUG
+
+
+package main
+
+import (
+	"fmt"
+)
+
+
+func main(){
+
+LABEL:
+	//fmt.Println("aaa1")
+	for i:=0; i<10; i++ {
+		fmt.Println("LABEL2")
+		for{
+			fmt.Println(i)
+			continue LABEL
+		}
+	}
+
+}
